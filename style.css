@@ -171,6 +171,7 @@ html {
     body,
     html {
         touch-action: auto;
+        overflow-y: auto; /* Fix: Enable scrolling on desktop */
     }
 
     .feed-container {
